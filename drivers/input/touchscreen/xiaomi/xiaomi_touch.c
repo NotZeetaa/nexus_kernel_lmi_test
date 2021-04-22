@@ -512,7 +512,6 @@ static int xiaomi_touch_parse_dt(struct device *dev, struct xiaomi_touch_pdata *
 
 	return 0;
 }
-
 #if XIAOMI_ROI
 void xiaomi_touch_send_btn_tap_key(int status)
 {
